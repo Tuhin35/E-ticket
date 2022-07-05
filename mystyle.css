@@ -5,10 +5,14 @@
     background-color: bisque;
 }
 .n-bar ul li{
-
+ 
     display: inline;
     padding: 20px;
     
+}
+.n-bar ul li a{
+    text-align: center;
+    margin: 0 auto;
 }
 
 .half-width{
@@ -18,21 +22,25 @@
 
 }
 .first-part{
-    display: flex;
-    height: 500px;
+     display: flex; 
+    /* height: 500px; */
     margin-top: 50px;
 }
 
 .trainpic{
-    display: flex;
+    margin-right: 100px;
     text-align: right;
 
-    background-image: url(train.jpg);
+    background-image: url(pic/train.jpg);
     background-repeat: no-repeat;
     width: 500px;
+    height: 300px;
     
    
    
+}
+.trainpic p{
+    margin-right: 70px;
 }
 .form{
     margin: auto;
@@ -42,6 +50,13 @@
     
     
     
+}
+.form label{
+    margin-left: 50px;
+   
+}
+.form input{
+    margin-bottom: 50px;
 }
 
 .bttn{
@@ -58,16 +73,16 @@
     margin: 10px;
 }
 .a-f{
-    background-color: #006747;
+   
     width: 40%;
     margin: 0;
     padding: 0;
 }
 .a-s{
-    background-color: azure;
+   
     text-align: center;
-    width: 40%;
-    margin: 0;
+    
+    margin: auto;
     padding: 0;
 }
 p{
@@ -76,8 +91,22 @@ p{
 .A-ticketes{
     width: 40%;
     margin: 20px;
+    background: linear-gradient(to bottom , rgb(117, 117, 247),rgb(225, 247, 225)) ;
 
 }
+.b-ticketes{
+    width: 40%;
+    margin: 20px;
+    background: linear-gradient(to bottom , rgb(247, 180, 117),rgb(236, 243, 245)) ;
+
+}
+
+.update{
+    display: flex;
+    
+}
+
+
 .onetheird{
    width: 30%; 
 }

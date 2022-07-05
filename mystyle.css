@@ -1,0 +1,110 @@
+.n-bar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+}
+.n-bar ul li{
+
+    display: inline;
+    padding: 20px;
+    
+}
+
+.half-width{
+
+    width: 40%;
+    margin: 20px;
+
+}
+.first-part{
+    display: flex;
+    height: 500px;
+    margin-top: 50px;
+}
+
+.trainpic{
+    display: flex;
+    text-align: right;
+
+    background-image: url(train.jpg);
+    background-repeat: no-repeat;
+    width: 500px;
+    
+   
+   
+}
+.form{
+    margin: auto;
+    width: 50%;
+    
+    padding: 30px;
+    
+    
+    
+}
+
+.bttn{
+    width: 100%;
+    background: #006747;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    height: 40px;
+    margin: 10px;
+}
+.a-f{
+    background-color: #006747;
+    width: 40%;
+    margin: 0;
+    padding: 0;
+}
+.a-s{
+    background-color: azure;
+    text-align: center;
+    width: 40%;
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-size: 25px;
+}
+.A-ticketes{
+    width: 40%;
+    margin: 20px;
+
+}
+.onetheird{
+   width: 30%; 
+}
+.SSP{
+    display: flex;
+    margin: 50px;
+
+}
+.select{
+    padding: 10px;
+}
+.t-counter img{
+    margin-top: 100px;
+    width: 500px;
+}
+
+li{
+    font-size: 25px;
+    
+}
+
+.rules h1{
+    font-size: 50px;
+}
+
+.helper{
+    margin: auto;
+    width: 50%;
+
+}
